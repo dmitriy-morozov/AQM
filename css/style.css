@@ -1818,15 +1818,14 @@ button {
       padding: 0 20px;
       height: 60px;
       line-height: 60px;
-      cursor: pointer; }
+      cursor: pointer;
+      font-family: 'Didact Gothic';
+      font-weight: bold;
+      font-size: 14px; }
+      .bottom_menu ul li.active {
+        background-color: #e8e8e8; }
       .bottom_menu ul li:hover {
         background-color: #f7f7f7; }
-      .bottom_menu ul li a {
-        font-family: 'Didact Gothic';
-        font-weight: bold;
-        font-size: 14px; }
-        .bottom_menu ul li a.active {
-          border-bottom: 1px solid black; }
   .bottom_menu select {
     display: none; }
     @media (max-width: 1000px) {

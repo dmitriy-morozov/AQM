@@ -16,19 +16,16 @@
       height: 60px;
       line-height: 60px;
       cursor: pointer;
+      font-family: 'Didact Gothic';
+      font-weight: bold;
+      font-size: $fs14;
+
+      &.active {
+        background-color: #e8e8e8;
+      }
 
       &:hover {
         background-color: #f7f7f7;
-      }
-
-      a {
-        font-family: 'Didact Gothic';
-        font-weight: bold;
-        font-size: $fs14;
-
-        &.active {
-          border-bottom: 1px solid black;
-        }
       }
     }
   }

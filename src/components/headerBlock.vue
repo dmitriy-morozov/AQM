@@ -30,7 +30,7 @@
                         <router-link to="/reviews/">Отзывы</router-link>
                     </li>
                     <li>
-                        <router-link to="/blog/">Блог</router-link>
+                        <router-link to="/blog/">Новости</router-link>
                     </li>
                     <li>
                         <router-link to="/contact/">Контакты</router-link>

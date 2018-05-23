@@ -3,8 +3,8 @@
         <div class="bottom_menu block">
             <nav>
                 <ul class="menu_inline">
-                    <li v-for="link in links" @click="fetchData(link.url)">
-                        <a href="#" :class="{active:isActive == link.url }">{{link.title}}</a>
+                    <li v-for="link in links" :class="{active:isActive == link.url }" @click="fetchData(link.url)">
+                        <span>{{link.title}}</span>
                     </li>
                 </ul>
             </nav>
@@ -121,7 +121,7 @@
 
         <div class="sidebar">
             <div class="search block">
-                <form action="#" @submit="searchData()">
+                <form action="#" @submit.prevent="searchData()">
                     <input type="text" placeholder="Поиск" v-model="searchQuery">
                     <input type="submit" value="">
                 </form>
