@@ -23,7 +23,7 @@ Vue.use(Router);
 
 export const myRouter = new Router({
     linkActiveClass: 'menu_active_black',
-    mode: 'history',
+    mode: 'abstract',
     routes: [
         {
             path: '/',
