@@ -1,4 +1,5 @@
 .content {
+	position: relative;
 	float: left;
 	display: inline-block;
 	width: 67.5%;
@@ -8,6 +9,14 @@
 	@media (max-width: 1000px) {
 		width: 100%;
 		max-width: none;
+	}
+
+	.loader {
+		position: absolute;
+		width:100%;
+		height:100%;
+		background: rgba(255,255,255,0.4) url('../assets/spinner.gif') no-repeat 50% 5%;
+		z-index:4;
 	}
 
 	.search {

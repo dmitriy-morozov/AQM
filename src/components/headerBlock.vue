@@ -39,7 +39,7 @@
             </nav>
             <div class="header_phone">
                 <a href="tel:+380508447776" class="phone">+380508447776</a>
-                <div class="phone_text">Получить консультацию</div>
+                <div class="phone_text" @click="toggleModal">Получить консультацию</div>
             </div>
         </div>
     </header>
@@ -58,6 +58,9 @@
         methods: {
             toggleMenu() {
                this.mobileMenu = !this.mobileMenu;
+            },
+            toggleModal() {
+                this.$store.commit('toggleModal');
             }
         }
     }

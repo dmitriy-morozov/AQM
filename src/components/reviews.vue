@@ -2,41 +2,25 @@
     <div class="reviews_wrapper">
         <div class="reviews">
             <h2>Отзывы наших клиентов</h2>
-            <div class="video">
-                <img src="../assets/video_screen.jpg" alt="Видео">
-                <button><img src="../assets/play_video.png" alt="Воспроизвести"></button>
-            </div>
-            <div class="video">
-                <img src="../assets/video_screen.jpg" alt="Видео">
-                <button><img src="../assets/play_video.png" alt="Воспроизвести"></button>
-            </div>
-            <div class="video">
-                <img src="../assets/video_screen.jpg" alt="Видео">
-                <button><img src="../assets/play_video.png" alt="Воспроизвести"></button>
-            </div>
-            <div class="video">
-                <img src="../assets/video_screen.jpg" alt="Видео">
-                <button><img src="../assets/play_video.png" alt="Воспроизвести"></button>
-            </div>
-            <div class="video">
-                <img src="../assets/video_screen.jpg" alt="Видео">
-                <button><img src="../assets/play_video.png" alt="Воспроизвести"></button>
-            </div>
-            <div class="video">
-                <img src="../assets/video_screen.jpg" alt="Видео">
-                <button><img src="../assets/play_video.png" alt="Воспроизвести"></button>
-            </div>
-            <div class="video">
-                <img src="../assets/video_screen.jpg" alt="Видео">
-                <button><img src="../assets/play_video.png" alt="Воспроизвести"></button>
-            </div>
-            <div class="video">
-                <img src="../assets/video_screen.jpg" alt="Видео">
-                <button><img src="../assets/play_video.png" alt="Воспроизвести"></button>
-            </div>
-            <div class="video">
-                <img src="../assets/video_screen.jpg" alt="Видео">
-                <button><img src="../assets/play_video.png" alt="Воспроизвести"></button>
+            <div class="video-wrap">
+                <div class="video">
+                    <iframe width='100%' height='100%' src="https://www.youtube.com/embed/rz-DS_Q-Xpo" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <iframe width='100%' height='100%' src="https://www.youtube.com/embed/rz-DS_Q-Xpo" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <iframe width='100%' height='100%' src="https://www.youtube.com/embed/rz-DS_Q-Xpo" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <iframe width='100%' height='100%' src="https://www.youtube.com/embed/rz-DS_Q-Xpo" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <iframe width='100%' height='100%' src="https://www.youtube.com/embed/rz-DS_Q-Xpo" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <iframe width='100%' height='100%' src="https://www.youtube.com/embed/rz-DS_Q-Xpo" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </div>

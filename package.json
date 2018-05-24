@@ -20,6 +20,7 @@
     "vue-router": "^3.0.1",
     "vue-slick": "^1.1.12",
     "vue-slider-component": "^2.4.7",
+    "vue-social-sharing": "^2.3.3",
     "vue-twentytwenty": "^0.6.0",
     "vuex": "^3.0.1"
   },

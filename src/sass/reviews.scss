@@ -16,11 +16,18 @@
 		}
 	}
 
+	.video-wrap {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
 	.video {
 		position: relative;
 		display: inline-block;
-		width: 30%;
-		margin-right: 3%;
+		width: 26%;
+		min-height: 300px;
+		height: auto;
 		margin-bottom: 55px;
 
 		@media (max-width: 1000px) {

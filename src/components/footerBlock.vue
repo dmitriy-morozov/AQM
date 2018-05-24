@@ -1,29 +1,24 @@
 <template>
     <footer class="footer">
         <div class="social">
-            <a href="#">
-                <div class="social_sprite fb">
+            <social-sharing url="https://dmitriy-morozov.github.io/aqm"
+                            title="The Progressive JavaScript Framework - My website"
+                            description="My website."
+                            quote="Vue is a progressive framework for building user interfaces."
+                            hashtags="vuejs,javascript,framework"
+                            inline-template>
+                <div>
+                    <network network="facebook">
+                        <i class="social_sprite fb"></i>
+                    </network>
+                    <network network="telegram">
+                        <i class="social_sprite inst"></i>
+                    </network>
+                    <network network="twitter">
+                        <i class="social_sprite tw"></i>
+                    </network>
                 </div>
-            </a>
-            <a href="#">
-                <div class="social_sprite inst">
-                </div>
-            </a>
-            <a href="#">
-                <div class="social_sprite tw">
-                </div>
-            </a>
-            <a href="#">
-                <div class="social_sprite vk">
-                </div>
-            </a>
-        </div>
-
-        <div class="made_by clearfix">
-            <span>Разработка сайта:</span>
-            <a href="http://www.crepla.com/">
-                <div class="manufacturer"></div>
-            </a>
+            </social-sharing>
         </div>
     </footer>
 </template>

@@ -1335,11 +1335,16 @@ button {
         font-size: 1.88vw;
         margin-top: 1vw;
         margin-bottom: 5.1vw; } }
+  .reviews .video-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
   .reviews .video {
     position: relative;
     display: inline-block;
-    width: 30%;
-    margin-right: 3%;
+    width: 26%;
+    min-height: 300px;
+    height: auto;
     margin-bottom: 55px; }
     @media (max-width: 1000px) {
       .reviews .video {
@@ -1894,6 +1899,7 @@ button {
     display: none; }
 
 .content {
+  position: relative;
   float: left;
   display: inline-block;
   width: 67.5%;
@@ -1903,6 +1909,12 @@ button {
     .content {
       width: 100%;
       max-width: none; } }
+  .content .loader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.4) url("../assets/spinner.gif") no-repeat 50% 5%;
+    z-index: 4; }
   .content .search {
     display: none;
     margin-bottom: 30px; }
@@ -1958,14 +1970,25 @@ button {
 
 .slider {
   position: relative;
-  margin-bottom: 45px; }
+  margin-bottom: 45px;
+  background: none; }
   @media (max-width: 1000px) {
     .slider img {
       width: 100%;
       margin-bottom: -5px; } }
+  .slider .slick-slide {
+    height: 500px; }
   .slider .slide {
-    height: 500px;
-    background-size: cover; }
+    position: relative; }
+  .slider .slider_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1; }
   .slider .slider_text {
     position: absolute;
     bottom: 0px;
@@ -2015,6 +2038,10 @@ button {
         display: none; }
       .slider .screen_slider_points li.slick-active {
         background-color: #fff; }
+
+.blog_wrapper .slide {
+  position: relative;
+  height: 500px; }
 
 .news_all {
   width: 100%;
@@ -2161,11 +2188,19 @@ button {
       outline: none; }
 
 .sidebar_news {
+  position: relative;
   margin-bottom: 20px; }
+  .sidebar_news .loader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.4) url("../assets/spinner.gif") no-repeat 50% 30%;
+    z-index: 4; }
   @media (max-width: 1000px) {
     .sidebar_news {
       display: none; } }
   .sidebar_news .switch {
+    display: flex;
     background-color: #f3f3f3; }
     .sidebar_news .switch button {
       width: 50%;
@@ -2175,8 +2210,6 @@ button {
       border-top-right-radius: 5px;
       font-size: 14px;
       outline: none; }
-      .sidebar_news .switch button:nth-of-type(2) {
-        margin-left: -1.5%; }
     .sidebar_news .switch .active_button {
       background-color: #fff;
       font-family: 'Didact Gothic';
@@ -2189,10 +2222,14 @@ button {
     padding-left: 84px;
     border-bottom: 1px solid #f0f0f0;
     line-height: 20px; }
-    .sidebar_news .fresh_news .one_news img {
+    .sidebar_news .fresh_news .one_news .news_image {
       position: absolute;
       top: 20px;
-      left: 20px; }
+      left: 20px;
+      width: 50px;
+      height: 50px;
+      background-size: cover;
+      background-position: 50% 50%; }
     .sidebar_news .fresh_news .one_news h3 {
       font-size: 14px;
       color: #333333; }
